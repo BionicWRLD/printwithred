@@ -16,6 +16,8 @@
     body {
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
       color: var(--reds-dark);
+      /* Tone down the bright white background */
+      background-color: #f7f7f7;
     }
     .navbar-brand img {
       height: 40px;
@@ -48,6 +50,19 @@
     .product-card img {
       object-fit: cover;
       height: 200px;
+    }
+
+    /* Placeholder for product images */
+    .placeholder-image {
+      width: 100%;
+      height: 200px;
+      background: #ddd;
+      color: #777;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
     }
     footer {
       background: var(--reds-dark);
@@ -127,40 +142,43 @@
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/bowling-gauge.png" class="card-img-top" alt="Bowling Ball Pitch Gauge">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Bowling Ball Pitch Gauge</h5>
               <p class="card-text">Precisely measure and adjust your bowling ball pitches. Durable and stylish.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$25</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID for this item -->
+              <a href="#" id="order-bowling-gauge" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/name-plate.png" class="card-img-top" alt="Personalized Name Plate">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Personalized Name Plate</h5>
               <p class="card-text">Add your name or title to any workspace or gift. Embossed letters and clean design.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$15</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID for this item -->
+              <a href="#" id="order-name-plate" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/desk-decoration.png" class="card-img-top" alt="Custom Desk Decoration">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Custom Desk Decoration</h5>
-              <p class="card-text">Unique desk sculptures and figurines for your home or office. Choose your own color scheme.</p>
+              <p class="card-text">Unique desk sculptures and figurines for your home or office. Choose your own colour scheme.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$20+</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID for this item -->
+              <a href="#" id="order-desk-decoration" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>

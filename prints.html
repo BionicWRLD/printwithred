@@ -14,11 +14,26 @@
     body {
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
       color: var(--reds-dark);
+      /* Tone down the bright white background */
+      background-color: #f7f7f7;
     }
     .navbar-brand img { height: 40px; }
     .product-card img { object-fit: cover; height: 200px; }
     footer { background: var(--reds-dark); color: #ffffff; }
     footer a { color: #ffffff; text-decoration: underline; }
+
+    /* Placeholder for product images */
+    .placeholder-image {
+      width: 100%;
+      height: 200px;
+      background: #ddd;
+      color: #777;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
@@ -59,84 +74,90 @@
         <!-- Bowling Gauge -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/bowling-gauge.png" class="card-img-top" alt="Bowling Ball Pitch Gauge">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Bowling Ball Pitch Gauge</h5>
               <p class="card-text">Precisely measure and adjust bowling ball pitches to match your style. Durable, functional and stylish.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$25</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-bowling-gauge" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <!-- Name Plate -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/name-plate.png" class="card-img-top" alt="Personalized Name Plate">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Personalized Name Plate</h5>
-              <p class="card-text">Make your mark with a custom name plate for your desk or shelf. Choose fonts, colors and size.</p>
+              <p class="card-text">Make your mark with a custom name plate for your desk or shelf. Choose fonts, colours and size.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$15</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-name-plate" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <!-- Desk Decoration -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/desk-decoration.png" class="card-img-top" alt="Custom Desk Decoration">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Custom Desk Decoration</h5>
               <p class="card-text">Dragons, geometric art, logos and more – our desk decorations bring personality to any space.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$20+</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-desk-decoration" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <!-- Phone Stand -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/phone-stand.png" class="card-img-top" alt="Phone Stand">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Phone Stand</h5>
               <p class="card-text">Hold your phone in style. Our stands fit most devices and come in multiple colour options.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$18</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-phone-stand" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <!-- Keychain -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/keychain.png" class="card-img-top" alt="Keychain">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Keychain</h5>
               <p class="card-text">Small but mighty. Choose from simple shapes or custom designs – perfect for gifts or personal use.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">$8</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-keychain" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
         <!-- Custom Orders -->
         <div class="col-md-4">
           <div class="card product-card h-100 shadow-sm">
-            <img src="assets/images/custom-orders.png" class="card-img-top" alt="Custom Orders">
+            <div class="placeholder-image">Image Here</div>
             <div class="card-body">
               <h5 class="card-title">Custom Orders</h5>
               <p class="card-text">Have an idea? Let’s build it together! We work with you to create bespoke prints that suit your needs.</p>
             </div>
             <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
               <span class="fw-bold text-danger">Varies</span>
-              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+              <!-- Unique button ID -->
+              <a href="#" id="order-custom" class="btn btn-outline-danger btn-sm">Order Now</a>
             </div>
           </div>
         </div>
