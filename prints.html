@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our 3D Prints – REDs 3D Print Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-FKacqrjIJ4kaPBPyY2ZObLadXXbcYaSr3oKsRsF1drDHXo1VvF+T7eejUmLbJ6gx" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root {
+      --reds-primary: #c41e3a;
+      --reds-dark: #111111;
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--reds-dark);
+    }
+    .navbar-brand img { height: 40px; }
+    .product-card img { object-fit: cover; height: 200px; }
+    footer { background: var(--reds-dark); color: #ffffff; }
+    footer a { color: #ffffff; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/images/logo.png" alt="REDs 3D Print Shop Logo" class="me-2">
+        <span class="fw-bold">REDs 3D Print Shop</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="prints.html">Prints</a></li>
+          <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Page Header -->
+  <header class="py-5 mt-4 mb-4 bg-light text-center">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Our 3D Prints</h1>
+      <p class="lead">Browse our collection of hand‑crafted prints. Every item is customizable and made to order.</p>
+    </div>
+  </header>
+
+  <!-- Product Grid -->
+  <section class="pb-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Bowling Gauge -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/bowling-gauge.png" class="card-img-top" alt="Bowling Ball Pitch Gauge">
+            <div class="card-body">
+              <h5 class="card-title">Bowling Ball Pitch Gauge</h5>
+              <p class="card-text">Precisely measure and adjust bowling ball pitches to match your style. Durable, functional and stylish.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">$25</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Name Plate -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/name-plate.png" class="card-img-top" alt="Personalized Name Plate">
+            <div class="card-body">
+              <h5 class="card-title">Personalized Name Plate</h5>
+              <p class="card-text">Make your mark with a custom name plate for your desk or shelf. Choose fonts, colors and size.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">$15</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Desk Decoration -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/desk-decoration.png" class="card-img-top" alt="Custom Desk Decoration">
+            <div class="card-body">
+              <h5 class="card-title">Custom Desk Decoration</h5>
+              <p class="card-text">Dragons, geometric art, logos and more – our desk decorations bring personality to any space.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">$20+</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Phone Stand -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/phone-stand.png" class="card-img-top" alt="Phone Stand">
+            <div class="card-body">
+              <h5 class="card-title">Phone Stand</h5>
+              <p class="card-text">Hold your phone in style. Our stands fit most devices and come in multiple colour options.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">$18</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Keychain -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/keychain.png" class="card-img-top" alt="Keychain">
+            <div class="card-body">
+              <h5 class="card-title">Keychain</h5>
+              <p class="card-text">Small but mighty. Choose from simple shapes or custom designs – perfect for gifts or personal use.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">$8</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Custom Orders -->
+        <div class="col-md-4">
+          <div class="card product-card h-100 shadow-sm">
+            <img src="assets/images/custom-orders.png" class="card-img-top" alt="Custom Orders">
+            <div class="card-body">
+              <h5 class="card-title">Custom Orders</h5>
+              <p class="card-text">Have an idea? Let’s build it together! We work with you to create bespoke prints that suit your needs.</p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-danger">Varies</span>
+              <a href="contact.html" class="btn btn-outline-danger btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0">&copy; 2026 REDs 3D Print Shop – <span class="fst-italic">printwithred.com</span></p>
+      <p class="mb-0">Custom Prints • Quality • Passion</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-jEsQ6Gyw6qjueJkBv6mAc5cjox96D65gis6pZeRAgvIJ5zsxFrqxbPjzvY4xX3ai" crossorigin="anonymous"></script>
+</body>
+</html>
